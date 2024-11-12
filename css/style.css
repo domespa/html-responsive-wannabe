@@ -135,3 +135,67 @@ img {
         max-width: 100%; 
     }
 }
+ 
+/*SMARTPHONE DA 480 PX IN GIU'*/
+    /* LESSONS */
+
+@media screen and (max-width: 481px) {
+    .container {
+        max-width: 100%; 
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col {
+        margin: auto;
+    }
+
+    .lessons .col {
+        width: 75%;
+    }
+
+    .text {
+        padding-bottom: 50px;
+    }
+
+        /* STEPS */
+
+    .steps {
+        margin: 0;
+    }
+
+    h2 { 
+        margin: 0;
+    }
+
+    img {
+        padding-top: 50px;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .text {
+        padding: 0 50px 0px 50px;
+    }
+
+        /* WHY US */
+
+    .why-us {
+        background-color: #222;
+        margin: 0;
+    }
+
+    .why-us h2 {
+        padding: 2.5rem 2.5rem 0 2.5rem;
+        
+    }
+
+    .why-us .col {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+} 
