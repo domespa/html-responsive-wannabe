@@ -127,9 +127,15 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* DA 1160PX A 768PX */
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
 
 /* TABLET DA 768 PX IN GIU' */
-
 @media screen and (max-width: 769px) {
     .container {
         max-width: 100%; 
@@ -197,5 +203,7 @@ img {
     .why-us .col {
         width: 100%;
         padding-bottom: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
     }
 } 
