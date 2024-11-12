@@ -130,7 +130,7 @@ img {
 
 /* TABLET DA 768 PX IN GIU' */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .container {
         max-width: 100%; 
     }
